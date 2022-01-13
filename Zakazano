@@ -1,0 +1,5 @@
+What about change like this ? ECHO %%A | find "yourWord" >> outputFile.txt
+Unless you want more sophisticated search using Cygwin or PowerShell ? 
+But it could be quite slow to iterate file lines using batch script, maybe short C# code compiled by CSC would perform way better... 
+Let me know if you want it.
+My test batch looks like this now, but unless you filter before processing count works on source lines and not on result (some may be empty).
